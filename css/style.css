@@ -1,0 +1,266 @@
+body {
+    background-color:#f0ede5;
+    color:#427955;
+    font-family: 'Bobby Jones', cursive;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+
+.brand {
+    color:#53996c;
+    font-family: 'Playlilst Script', cursive;
+}
+
+.brand:hover {
+    background: repeating-linear-gradient(-60deg, rgb(202, 79, 202) 0%, rgb(202, 79, 202) 21%, #D499B9 31%, white 50%, #D499B9 61%, rgb(135, 20, 135) 71%, rgb(135, 20, 135) 100%);
+    background-size: 100%;
+    color: transparent;
+    background-clip: text;
+  }
+
+
+nav, .nav-dropbar-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-dropbar-links {
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #427955;
+    text-decoration: none;
+    text-decoration-color:#f0ede5;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+a:hover {
+    background: repeating-linear-gradient(-60deg, #6faf8c 0%, #6faf8c 21%, #D499B9 31%, white 50%, #D499B9 61%, #6faf8c 71%, #6faf8c 100%);
+    background-size: 100%;
+    color: transparent;
+    background-clip: text;
+}
+
+/*imge*/
+
+.top-box {
+    width: 1500px;
+    height: 180px;
+    overflow: hidden;
+    margin-top: -20px;
+    /*background-image: url('imges/top-img.png');*/
+}
+
+.top-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*profile*/
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container  {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+
+
+.pic {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin:auto 0;
+}
+
+.section_text {
+    align-self:center;
+    text-align: center;
+}
+
+.section_text p {
+    font-weight: 600;
+}
+
+.text_p1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap:1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+/* experience */
+
+#experi {
+    position: relative;
+}
+
+.exper-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.exp-detail-container {
+    justify-content:baseline;
+    flex-direction: column;
+}
+
+.exper-container, .exp-detail-container {
+    display: flex;
+}
+
+/*.experience-pic {
+    border-radius: 2rem;
+   /*height: 400px;
+    width: 400px;
+}
+*/
+.arrow {
+    position: absolute;
+    right: 3rem;
+    bottom: -50rem;
+  
+}
+
+.detail-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: #f0ede5;
+    border-radius: 4rem;
+    border:  rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.text-container {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-self:center;
+    color: black;
+
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+/*.section-pic-container {
+    height: 200px;
+    width: 200px;
+    margin: auto 0;
+} */
+
+
+/*project */
+#projects {
+    position: relative;
+}
+
+.text-container {
+    border-color: rgb(163,163,163) ;
+    background: #f0ede5;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 30%;
+    height: 30%;
+}
+
+.project-title {
+    margin:1rem;
+    color: black;
+}
+
+/*contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin:1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
